@@ -18,8 +18,9 @@
 }
 .ladodireito{
   width: 500px;
-  background-color: #ccc;
+  background-color: rgb(16, 77, 233);
   padding: 85px;
+  color: white;
 }
 .ladodireito h1{
   margin-bottom: 15px;
@@ -35,4 +36,20 @@
   font-size: 15px;
   width: 100%;
   outline: 0;
+}
+.botaocadastrar{
+  cursor: pointer;
+}
+.botaocadastrar:hover{
+  background-color: #999;
+}
+.facaologin{
+  color: white;
+}
+.error{
+  font-size: 13px;
+  background-color: red;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
 }
