@@ -1,5 +1,6 @@
 *{
   margin: 0px;
+  box-sizing: border-box;
 }
 .screen{
   display: flex;
@@ -18,4 +19,20 @@
 .ladodireito{
   width: 500px;
   background-color: #ccc;
+  padding: 85px;
+}
+.ladodireito h1{
+  margin-bottom: 15px;
+}
+.ladodireito label{
+  display: block;
+  margin-bottom: 20px;
+}
+.ladodireito input{
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 15px;
+  width: 100%;
+  outline: 0;
 }
